@@ -1,5 +1,4 @@
 package Practice_problem03;
-import java.util.Scanner;
 
 public class fibonacci_series {
     public static void main (String [] args) {
