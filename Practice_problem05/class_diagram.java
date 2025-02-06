@@ -31,6 +31,7 @@ class ContractEmployee extends Employee {
         System.out.println(name+" with ID : "+id +" of department : "+department+" has a contract amount of "+contractAmount+" for "+projectName);
     }
 }
+
 public class class_diagram {
     public static void main(String [] args) {
       FullTimeEmployee obj1 = new FullTimeEmployee();
