@@ -58,7 +58,6 @@ class FineDiningRestaurant extends Restaurant {
     }
 }
 
-// Main class
 public class method_overriding {
     public static void main(String[] args) {
         Restaurant genericRestaurant = new Restaurant("Normal ");
