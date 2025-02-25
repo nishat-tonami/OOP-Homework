@@ -8,8 +8,8 @@ class FoodOrderingSystem {
     double totalCost=0;
     void food(String food,double price,int quantity) {
       double cost=quantity*price;
-       System.out.println("You chose the food : "+food+" ,priced at : "+price+" ,quantity : "+quantity);
-       System.out.println("Total cost for this item is "+quantity*price);
+       System.out.println("You chose the food : "+food+" ,priced at : "+price+"$ ,quantity : "+quantity);
+       System.out.println("Total cost for this item is "+quantity*price+"$");
        totalCost+=cost;
     }
     void menu(){
